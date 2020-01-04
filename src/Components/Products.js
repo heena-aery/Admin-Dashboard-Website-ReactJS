@@ -118,7 +118,7 @@ class Products extends Component {
                     </table>
 
                 </Scrollbars>
-                <input type="submit" className="Button"   style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
+                <input type="submit" className="Button"  style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
                 <input type="submit" className="Button"  style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
 
 
