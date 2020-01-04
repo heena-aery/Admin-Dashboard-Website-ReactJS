@@ -85,6 +85,14 @@ class Products extends Component {
 
 
     render() {
+
+        const modalStyleArr = ['popup'];
+        if (this.state.showModal) {
+            modalStyleArr.push('show');
+        }
+        else {
+            modalStyleArr.push('hide');
+        }
         const productData = this.state.Products.map((item, index) => {
             return <tr key={index}><td><input type="checkbox" key={item.name} name={item.name} onChange={() => this.onProductSelect(index)} /></td><td>{item.name}</td><td>{item.unitSold}</td><td>{item.stock}</td><td>{item.expireDate}</td><td><FaTrashAlt onClick={() => this.onDeleteProduct(index)} /></td></tr>
         });
@@ -110,18 +118,28 @@ class Products extends Component {
                     </table>
 
                 </Scrollbars>
-                <input type="submit" style={{ height: '40px', width: '1000px', margin: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
-                <input type="submit" style={{ height: '40px', width: '1000px', margin: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
+                <input type="submit" style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
+                <input type="submit" style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
 
 
                 <div className="categorytable">
                     <table className="tableP">
                         {categoryData}
                     </table>
-                    <input type="button" style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '12px' }} value="ADD NEW CATEGOERY" />
+                    <input type="button" style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '12px' }}  onClick={this.OnAddBtnClick} value="ADD NEW CATEGOERY" />
 
 
                 </div>
+                <div className={modalStyleArr.join(' ')}>  
+<div className='popup_inner'>  
+<h1 style={{marginLeft:'10px',}}>Add Category</h1>  
+<hr></hr>
+<p>Category:</p>
+<div style={{width: '250px', display: 'inline-block', marginBottom: '20px',}}><input type="text" value={this.state.categoryName} onInput={this.OnCategoryInputChange} name="NewCategory" className="Categorytextbox"/></div> 
+<div style={{display:'inline-block'}}><input type="button" alt="SAVE" value="SAVE" style={{height: '40px', cursor:'pointer', width: '200px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgb(245, 166, 35)',marginLeft:'20px', border: 'rgb(245, 166, 35)'}}  onClick={this.OnAddCategoryBtnClick} /></div> 
+<div style={{display:'inline-block'}}><input type="button" alt="CANCEL" value="CANCEL" style={{height: '40px', cursor:'pointer', width: '200px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgb(245, 166, 35)',marginLeft:'10px', border: 'rgb(245, 166, 35)'}}  onClick={this.onCloseButtonClick} /></div> 
+</div>  
+</div>
 
 
 

@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-    <h4 class="footer">Copyright@ 2018 All rights reserved. Design: Template Mo</h4>
+    <h4 class="footer">Copyright@ 2018 All rights reserved. Design By: Heena $harma </h4>
 </div>
         );
     }

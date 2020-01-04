@@ -9,7 +9,7 @@
     background-color: #54657d;
     width: 100%;
     height: 90%;
-    padding-left: 500px;
+    padding-left: 600px;
     padding-top: 20px;
 
 }
@@ -42,34 +42,52 @@ a {
     margin-top: 40px;
 }
 
-.label {
+.label{
     font-size: 18px;
     font-weight: normal;
+    margin-left:30px; 
+    font-size:18px;
 }
 
 .footer {
-    background-color: #567086;
-    font-size: 12px;
-    font-weight: normal;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    bottom: 15px;
+    padding: 36px 0;
     width: 100%;
-
+    background-color: #567086;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    position: fixed;
 }
 
-.accountddl {
+.accountddl{
     font-size: 12px;
     font-weight: normal;
-    padding: 5px;
-    width: 70%
+    padding: 10px;
+    width: 70%;
+    background-color: #54657d;
+    border-color: #54657d;
+    margin: 20px;
 }
 
 .accountsetting {
     font-size: 12px;
     font-weight: normal;
     padding: 10px;
+}
+.accountlist{
+    background-color: #435c70;
+    width:62%;
+    height: 160px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 4px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    background-clip: content-box;
 }
 
 .profile {
@@ -109,6 +127,21 @@ a {
     font-size: 90%;
     font-weight: 600;
 }
+.Loginbtn {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+}
+.Loginbtn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+}
+/* style={{ height: '40px', width: '300px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: '#f5a623', border: '#f5a623' }} */
 
 .tblefield {
     padding: 10px;
@@ -136,7 +169,7 @@ a {
 .listtitle {
     background-color: #54657d;
     width: 130%;
-    height: 85%;
+    height: 95%;
     margin-left: 100px;
     padding-top: 20px;
     font-weight: normal;
@@ -323,3 +356,45 @@ a {
 .OrderDiv {
     background-color: #435c70;
 }
+.popup {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: rgba(0,0,0, 0.5);  
+  }  
+  .popup_inner {  
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    border-radius: 20px;  
+    background: #435c70;  
+  }
+  .Categorytextbox{
+    width: 100%;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 14px 8px;
+    background-color: #54657d;
+    border-color: #54657d;
+    box-shadow: none;
+    margin: 10px;
+  }
+  p{
+      margin-left: 20px;
+      font-size: 16px;
+  }
+  .show{
+      display: block;
+  }
+  .hide{
+      display: none;
+  }
