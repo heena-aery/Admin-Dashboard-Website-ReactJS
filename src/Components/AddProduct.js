@@ -136,9 +136,9 @@ class AddProduct extends Component {
                     <img className="UploadImage" src={this.state.ImageUrl} />
                     <input type="file" id="file" onChange={this.UpdateImage} ref="fileUploader" style={{ display: "none" }} />
                 </div>
-                <input type="button" style={{ height: '40px', width: '300px', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '20px' }} onClick={this.UploadImage} value="Upload Product Image" />
+                <input type="button" className="Button"  style={{ height: '40px', width: '300px', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '20px' }} onClick={this.UploadImage} value="Upload Product Image" />
                 <div>
-                    <input type="button" style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '40px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '20px' }} onClick={this.onAddClick} value="ADD Product Now" />
+                    <input type="button" className="Button"  style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '40px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '20px' }} onClick={this.onAddClick} value="ADD Product Now" />
 
                 </div>
 

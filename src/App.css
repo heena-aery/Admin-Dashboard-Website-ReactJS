@@ -65,10 +65,11 @@ a {
     font-size: 12px;
     font-weight: normal;
     padding: 10px;
-    width: 70%;
+    width: 90%;
     background-color: #54657d;
     border-color: #54657d;
     margin: 20px;
+    color: white;
 }
 
 .accountsetting {
@@ -93,7 +94,7 @@ a {
 .profile {
     font-size: 12px;
     font-weight: normal;
-    width: 25%;
+    width: 24%;
     margin: 15px;
     display: inline-block;
     float: left;
@@ -101,14 +102,15 @@ a {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    height: 50%;
+    margin-left: 40px;
+    height: 40vh;
 
 }
 
 .account {
     display: inline-block;
     background-color: #394f62;
-    width: 35%;
+    width: 34%;
     float: left;
     margin-left: 5px;
     margin-top: 10px;
@@ -127,20 +129,35 @@ a {
     font-size: 90%;
     font-weight: 600;
 }
-.Loginbtn {
+.Loginbutton {
     color: #fff;
     background-color: #f5a623;
     border: 2px solid #f5a623;
     font-size: 90%;
     font-weight: 600;
 }
-.Loginbtn:hover {
-    color: black;
-    background-color: white;
-    border: 2px solid #f5a623;
+.Loginbutton:hover {
+    color: black!important;
+    background-color: white!important;
+    border: 2px solid #f5a623!important;
     font-size: 90%;
     font-weight: 600;
 }
+
+.Button{
+    color: white;
+    font-weight:bold; 
+    background-color: orange;
+    border: orange;
+    cursor: pointer;
+}
+.Button:hover{
+    color: #f5a623!important;
+    background-color: white!important;
+    border: 2px solid #f5a623!important;
+    font-size: 90%;
+    font-weight: 600;
+} 
 /* style={{ height: '40px', width: '300px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: '#f5a623', border: '#f5a623' }} */
 
 .tblefield {
@@ -149,6 +166,7 @@ a {
     height: 120%;
     box-sizing: border-box;
     display: block;
+    margin-left: 40px;
 }
 
 .textbox {
@@ -168,9 +186,9 @@ a {
 
 .listtitle {
     background-color: #54657d;
-    width: 130%;
+    width: 90%;
     height: 95%;
-    margin-left: 100px;
+    margin-left: 400px;
     padding-top: 20px;
     font-weight: normal;
     font-size: 12px;
@@ -397,4 +415,9 @@ a {
   }
   .hide{
       display: none;
+  }
+  .Button:hover{
+    color: #f5a623!important;
+    background-color: white!important;
+    border: 2px solid #f5a623!important;
   }

@@ -181,11 +181,11 @@ class Accounts extends Component {
                         <img className="profilepic" src={this.state.profilePic} />
                         <br />
                         <input type="file" id="file" onChange={this.UpdateImage} ref="fileUploader" style={{ display: "none" }} />
-                        <input type="button" className="Loginbtn" className="btn" style={{ height: '30px', width: '250px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} alt="Login" onClick={this.UploadImage} value="Upload New Photo" />
+                        <input type="button" className="Button"  style={{ height: '40px', width: '250px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} alt="Login" onClick={this.UploadImage} value="Upload New Photo" />
                     </div>
 
                     <div className="account">
-                        <h4 style={{ marginBottom: '0px', marginLeft: '20px' }}>Account Setting </h4>
+                        <h4 style={{ marginBottom: '0px', marginLeft: '50px',fontSize:'18px', }}>Account Setting </h4>
                         <table className="tblefield">
                             <tr>
                                 <td className="accountsetting">Account Name<br /><input type="text" name="accountName" value={this.state.name} onInput={(e) => this.onInputChange('accountName', e)} className="textbox" style={{ height: '30px', marginTop: '5px', paddingLeft: '5px', width: '190px' }} /></td>
@@ -202,11 +202,11 @@ class Accounts extends Component {
                                 <td className="accountsetting">Phone<br /><input type="text" value={this.state.phone} onInput={(e) => this.onInputChange('phone', e)} className="textbox" style={{ height: '30px', marginTop: '5px', paddingLeft: '5px', width: '190px', }} />
                                 </td>
 
-                                <td><input type="button" className="Loginbtn" style={{ height: '30px', width: '200px', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', }} alt="Login" onClick={this.Updateprofile} value="Update Your Profile" />
+                                <td><input type="button" className="Button"  style={{ height: '40px', width: '200px', paddingLeft: '5px', marginTop: '10px', color: 'white', marginLeft:'20px', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', }} alt="Login" onClick={this.Updateprofile} value="Update Your Profile" />
                                 </td>
                             </tr>
                         </table>
-                        <input type="button" className="Loginbtn" style={{ height: '30px', width: '450px', margin: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} alt="Login" value="Update Your Profile" onClick={this.onDeleteClick} />
+                        <input type="button" className="Button" style={{ height: '40px', width: '450px', margin: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange',marginLeft:'40px' }} alt="Login" value="Update Your Profile" onClick={this.onDeleteClick} />
                     </div>
 
                 </div>

@@ -118,15 +118,15 @@ class Products extends Component {
                     </table>
 
                 </Scrollbars>
-                <input type="submit" style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
-                <input type="submit" style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
+                <input type="submit" className="Button"   style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
+                <input type="submit" className="Button"  style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
 
 
                 <div className="categorytable">
                     <table className="tableP">
                         {categoryData}
                     </table>
-                    <input type="button" style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '12px' }}  onClick={this.OnAddBtnClick} value="ADD NEW CATEGOERY" />
+                    <input type="button" className="Button"  style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '12px' }}  onClick={this.OnAddBtnClick} value="ADD NEW CATEGOERY" />
 
 
                 </div>
@@ -136,8 +136,8 @@ class Products extends Component {
 <hr></hr>
 <p>Category:</p>
 <div style={{width: '250px', display: 'inline-block', marginBottom: '20px',}}><input type="text" value={this.state.categoryName} onInput={this.OnCategoryInputChange} name="NewCategory" className="Categorytextbox"/></div> 
-<div style={{display:'inline-block'}}><input type="button" alt="SAVE" value="SAVE" style={{height: '40px', cursor:'pointer', width: '200px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgb(245, 166, 35)',marginLeft:'20px', border: 'rgb(245, 166, 35)'}}  onClick={this.OnAddCategoryBtnClick} /></div> 
-<div style={{display:'inline-block'}}><input type="button" alt="CANCEL" value="CANCEL" style={{height: '40px', cursor:'pointer', width: '200px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgb(245, 166, 35)',marginLeft:'10px', border: 'rgb(245, 166, 35)'}}  onClick={this.onCloseButtonClick} /></div> 
+<div style={{display:'inline-block'}}><input type="button" className="Button" alt="SAVE" value="SAVE" style={{height: '40px', cursor:'pointer', width: '200px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgb(245, 166, 35)',marginLeft:'20px', border: 'rgb(245, 166, 35)'}}  onClick={this.OnAddCategoryBtnClick} /></div> 
+<div style={{display:'inline-block'}}><input type="button" className="Button" alt="CANCEL" value="CANCEL" style={{height: '40px', cursor:'pointer', width: '200px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgb(245, 166, 35)',marginLeft:'10px', border: 'rgb(245, 166, 35)'}}  onClick={this.onCloseButtonClick} /></div> 
 </div>  
 </div>
 

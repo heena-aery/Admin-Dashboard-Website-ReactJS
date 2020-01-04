@@ -71,7 +71,7 @@ class Login extends Component {
                         <h2 style={{ marginTop: '50px' }}>Welcome to Dashboard,Login</h2>
                         <span className="label">Username</span><br /><span><input type="text" value={this.state.username} onInput={(e) => this.onInput('username', e)} style={{ height: '40px', marginTop: '8px', width: '300px', }} /></span><br /><br />
                         <span className="label">Password</span><br /><span><input type="password" value={this.state.password} onInput={(e) => this.onInput('password', e)} style={{ height: '40px', marginTop: '8px', width: '300px', }} /></span><br /><br />
-                        <input type="submit" className="Loginbtn" style={{ height: '40px', width: '300px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: '#f5a623', border: '#f5a623' }} alt="Login" value="Login" />
+                        <input type="submit" className="Loginbutton" style={{ height: '40px', width: '300px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: '#f5a623', border: '#f5a623' }} alt="Login" value="Login" />
                     </form>
                 </div>
 
