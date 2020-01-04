@@ -1,0 +1,325 @@
+.titlediv {
+    background-color: #567086;
+    width: 100%;
+    height: 15%;
+
+}
+
+.contentdiv {
+    background-color: #54657d;
+    width: 100%;
+    height: 90%;
+    padding-left: 500px;
+    padding-top: 20px;
+
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: #4e657a;
+    overflow-x: hidden;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.inputfields {
+    background-color: #435c70;
+    width: 390px;
+    height: 410px;
+    padding-left: 60px;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer {
+    background-color: #567086;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+
+}
+
+.accountddl {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    width: 70%
+}
+
+.accountsetting {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.profile {
+    font-size: 12px;
+    font-weight: normal;
+    width: 25%;
+    margin: 15px;
+    display: inline-block;
+    float: left;
+    background-color: #394f62;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 50%;
+
+}
+
+.account {
+    display: inline-block;
+    background-color: #394f62;
+    width: 35%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 60%;
+}
+
+.profilepic {
+    width: 150px;
+    height: 150px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.tblefield {
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    height: 120%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.textbox {
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.listtitle {
+    background-color: #54657d;
+    width: 130%;
+    height: 85%;
+    margin-left: 100px;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 12px;
+
+}
+
+.Addproduct {
+    background-color: #435c70;
+    width: 40%;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    margin-top: 20px;
+}
+
+.textbox {
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 40px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.textarea {
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    overflow: visible;
+
+}
+
+.ddl {
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    height: 40px;
+
+}
+
+.textbx {
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 40%;
+    margin: 0;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.choose {
+    background-color: rgb(236, 203, 203);
+    width: 20%;
+    height: 20%;
+    display: none;
+}
+
+.UploadImage {
+    width: 100%;
+    height: 10%;
+    margin-right: 150px;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+.Producttable {
+    width: 60%;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    display: block;
+    background-color: #435c70;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.tblproduct {
+    width: 60%;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    height: 60vh;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+.categorytable {
+    width: 30%;
+    font-weight: normal;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 1100px;
+    vertical-align: top;
+    margin-top: -400px;
+
+}
+
+.tableP {
+    border-spacing: 1px;
+    font-size: 13px;
+    width: 100%;
+    display: table;
+    border-spacing: 15px;
+    border-collapse: separate;
+    overflow-wrap: break-word;
+}
+
+.Table_headerRow {
+    background-color: #435c70;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-spacing: 1px;
+    font-size: 13px;
+}
+
+.table tr td {
+    padding: 10px;
+    border-bottom: 2px solid #435c70;
+}
+
+.container {
+    background-color: #435c70;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: 16px;
+    z-index: 999;
+}
+
+.visible {
+    top: 16px;
+}
+
+.hidden {
+    top: -100px;
+}
+
+/* dashboard details */
+.dashboardContent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dashboardContent .dashboardCard {
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #435c70;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.OrderDiv {
+    background-color: #435c70;
+}
