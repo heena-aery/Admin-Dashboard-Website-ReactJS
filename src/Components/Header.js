@@ -17,9 +17,9 @@ class Header extends Component {
                     <Link to="/Dashboard">PRODUCT ADMIN</Link>
                 </div>
                 <div className="middleNav">
-                    <div className="icon" style={{ display: 'inline-block', margin: '20px', textAlign: 'center', fontSize: '16px' }}><Link to="/Dashboard"><FaTachometerAlt Icon size={30} /></Link> <br />Dashboard</div>
-                    <div className="icon" style={{ display: 'inline-block', margin: '20px', textAlign: 'center', fontSize: '16px' }}><Link to="/Products"><FaShoppingCart Icon size={30} /></Link> <br />Products</div>
-                    <div className="icon" style={{ display: 'inline-block', margin: '20px', textAlign: 'center', fontSize: '16px' }}><Link to="/Accounts"><FaUserAlt Icon size={30} /></Link> <br />Accounts</div>
+                    <div className="icon" style={{ display: 'inline-block', textAlign: 'center', fontSize: '16px' }}><Link to="/Dashboard"><FaTachometerAlt Icon size={20} /></Link> <br />Dashboard</div>
+                    <div className="icon" style={{ display: 'inline-block', textAlign: 'center', fontSize: '16px' }}><Link to="/Products"><FaShoppingCart Icon size={20} /></Link> <br />Products</div>
+                    <div className="icon" style={{ display: 'inline-block', textAlign: 'center', fontSize: '16px' }}><Link to="/Accounts"><FaUserAlt Icon size={20} /></Link> <br />Accounts</div>
                 </div>
 
                 <div className="rightNav" style={{ display: 'inline-block', marginLeft: '150px' }}>

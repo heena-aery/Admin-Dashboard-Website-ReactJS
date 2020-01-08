@@ -35,6 +35,7 @@ a {
 .icon {
     font-size: 25px;
     margin-bottom: 5px;
+    margin: 20px;
 }
 
 .inputfields {
@@ -54,7 +55,7 @@ a {
 }
 
 .footer {
-    padding: 36px 0;
+    padding: 20px 0;
     width: 100%;
     background-color: #567086;
     text-align: center;
@@ -84,7 +85,7 @@ a {
 .accountlist{
     background-color: #435c70;
     width:62%;
-    height: 160px;
+    height: 180px;
     padding-left: 30px;
     padding-top: 10px;
     margin-top: 4px; 
@@ -118,7 +119,7 @@ a {
     float: left;
     margin-left: 5px;
     margin-top: 10px;
-    height: 60%;
+    height: 50vh;
 }
 
 .profilepic {
@@ -154,6 +155,29 @@ a {
     background-color: orange;
     border: orange;
     cursor: pointer;
+    height: 50px;
+    width: 100% ;
+    padding-left: 5px; 
+    margin-top:10px;
+    font-size: 12px; 
+}
+.productbtn{
+    height: 50px;
+    width: 1000px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border: orange;
+}
+.productbtn :hover{
+    height: 50px;
+    width: 1000px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: white!important;
+    border: 2px solid #f5a623!important;
 }
 .Button:hover{
     color: #f5a623!important;
@@ -165,9 +189,9 @@ a {
 /* style={{ height: '40px', width: '300px', marginTop: '20px', color: 'white', fontWeight: 'bold', backgroundColor: '#f5a623', border: '#f5a623' }} */
 
 .tblefield {
-    padding: 10px;
+    padding: 5px;
     box-shadow: 1px 1px 5px 0 #455c71;
-    height: 120%;
+    height: 60%;
     box-sizing: border-box;
     display: block;
     margin-left: 40px;
@@ -190,13 +214,16 @@ a {
 
 .listtitle {
     background-color: #54657d;
-    width: 90%;
+    width: 100%;
     height: 95%;
-    margin-left: 400px;
+    margin-left: 300px;
     padding-top: 20px;
     font-weight: normal;
     font-size: 12px;
 
+}
+.profileinfo{
+    width: 100%;
 }
 
 .Addproduct {
@@ -434,8 +461,6 @@ a {
     .titlediv {
         width: 100%;
         height: 7%;
-        
-    
     }
     .LeftNav{
         margin: 5px;
@@ -445,7 +470,7 @@ a {
         margin-left:60px;
     }
     .icon{
-        margin:3px;
+        margin:5px;
         size: 8px;
         font-size: 10px;
     }
@@ -453,6 +478,17 @@ a {
         margin-left: 5px;
         display: inline-block;
         font-size: 15px;
+    }
+    .footer {
+        padding: 10px 0;
+        width: 100%;
+        background-color: #567086;
+        text-align: center;
+        bottom: 0;
+        margin-bottom: 10px;
+        color: #fff;
+        font-weight: 300;
+        position: fixed;
     }
 
     .dashboardContent {
@@ -472,8 +508,133 @@ a {
         box-sizing: border-box;
     }
     .tableP {
-        border-spacing: 5px;
-        width: 80%;
+        border-spacing: 10px;
+        width: 90%;
     }
+    .inputfields {
+        width: 350px;
+        height: 370px;
+        padding-left: 30px;
+        padding-top: 10px;
+        margin-top: 5px;
+    }
+    .contentdiv {
+    width: 90%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+h2{
+    font-size: 18px;
+}
+.label{
+    font-size: 14px;
+    font-weight: normal;
+    margin-left:10px;
+}
+.tblproduct {
+    width: 95%;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    height: 30vh;
+    margin-top: 10px;
+    margin-left: 2px;
+
+}
+.productbtn{
+    height: 30px;
+    width: 530px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border: orange;
+}
+.categorytable {
+    width: 80%;
+    font-weight: normal;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 60px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+.Button{
+    color: white;
+    font-weight:bold; 
+    background-color: orange;
+    border: orange;
+    cursor: pointer;
+    height: 20px;
+    width: 80% ;
+    padding-left: 5px; 
+    font-size: 10px; 
+}
+.accountlist{
+    background-color: #435c70;
+    width:90%;
+    height: 160px;
+}
+.listtitle {
+    background-color: #54657d;
+    width: 100%;
+    height: 95%;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-weight: normal;
+    font-size: 12px;
+}
+.profile {
+    font-size: 10px;
+    font-weight: normal;
+    width: 90%;
+    display: block;
+    background-color: #394f62;
+    text-align: center;
+    margin-left: 5px;
+}
+.profileinfo{
+    width: 100%;
+    height: 10%;
+}
+
+.account {
+    background-color: #394f62;
+    width: 90%;
+    display: block;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 5px;
+    height: 35%;
+}
+.accountsetting {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+}
+.textbox {
+    padding: 10px 9px;
+    border-radius: 0;
+    height: 30px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    display: block;
+    width: 90%;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.tblefield {
+    padding: 5px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    height: 60%;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 40px;
+}
+
   }
  

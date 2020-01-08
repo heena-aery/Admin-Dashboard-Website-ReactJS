@@ -118,19 +118,22 @@ class Products extends Component {
                     </table>
 
                 </Scrollbars>
-                <input type="submit" className="Button"  style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.OnAddProduct} value="Add New Product"></input><br />
-                <input type="submit" className="Button"  style={{ height: '50px', width: '1000px', marginTop: '30px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange' }} onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
+                <input type="submit" className="productbtn"  onClick={this.OnAddProduct} value="Add New Product"></input><br />
+                <input type="submit" className="productbtn"  onClick={this.onMultipleDeleteClick} value="Delete Selected Products"></input>
 
 
                 <div className="categorytable">
                     <table className="tableP">
                         {categoryData}
                     </table>
-                    <input type="button" className="Button"  style={{ height: '50px', width: '100%', paddingLeft: '5px', marginTop: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange', fontSize: '12px' }}  onClick={this.OnAddBtnClick} value="ADD NEW CATEGOERY" />
+                    <input type="button" className="Button"  onClick={this.OnAddBtnClick} value="ADD NEW CATEGOERY" />
 
 
                 </div>
-                <div className={modalStyleArr.join(' ')}>  
+
+
+
+ <div className={modalStyleArr.join(' ')}>  
 <div className='popup_inner'>  
 <h1 style={{marginLeft:'10px',}}>Add Category</h1>  
 <hr></hr>

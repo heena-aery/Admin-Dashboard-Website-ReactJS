@@ -175,7 +175,7 @@ class Accounts extends Component {
                     </select>
 
                 </div>
-                <div style={{ width: '100%', }}>
+                <div className="profileinfo">
                     <div className="profile">
                         <h2>Change Avtar</h2>
                         <img className="profilepic" src={this.state.profilePic} />
@@ -206,7 +206,7 @@ class Accounts extends Component {
                                 </td>
                             </tr>
                         </table>
-                        <input type="button" className="Button" style={{ height: '40px', width: '450px', margin: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange',marginLeft:'40px' }} alt="Login" value="Update Your Profile" onClick={this.onDeleteClick} />
+                        <input type="button" className="Button productbtn" style={{ height: '40px', width: '450px', margin: '10px', color: 'white', fontWeight: 'bold', backgroundColor: 'orange', border: 'orange',marginLeft:'40px', marginTop:'20px' }} alt="Login" value="Delete Your Account" onClick={this.onDeleteClick} />
                     </div>
 
                 </div>
